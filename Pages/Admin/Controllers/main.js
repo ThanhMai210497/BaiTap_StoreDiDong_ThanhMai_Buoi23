@@ -84,19 +84,6 @@ let renderListPhone = (Products) => {
   document.getElementById("tbody").innerHTML = contentHTML;
 };
 
-// let deletePhone = (idProduct) => {
-//   phoneService
-//     .deleteById(idProduct)
-//     .then((res) => {
-//       console.log("🚀 ~ deletePhone ~ res:", res);
-//       fetchListPhone();
-//     })
-//     .catch((err) => {
-//       console.log("🚀 ~ deletePhone ~ err:", err);
-//     });
-// };
-
-//
 let deletePhone = (idProduct) => {
   phoneService
     .deleteById(idProduct)
@@ -260,5 +247,5 @@ form.addEventListener("submit", async (e) => {
 });
 document.getElementById("btnSave").addEventListener("click", (e) => {
   e.preventDefault();
-  form.requestSubmit(); // ép form chạy event submit
+  form.requestSubmit();
 });

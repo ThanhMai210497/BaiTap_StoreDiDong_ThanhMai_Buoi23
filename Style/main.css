@@ -416,12 +416,12 @@ body.admin::before {
 /* ===== Form grid ===== */
 .form-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* 2 cột */
-  gap: 12px 16px; /* hàng / cột */
+  grid-template-columns: 1fr 1fr;
+  gap: 12px 16px;
 }
 
 .form-grid label {
-  display: flex; /* biến label thành block + xếp dọc */
+  display: flex;
   flex-direction: column;
   gap: 6px;
   font-size: 13px;
@@ -505,4 +505,4 @@ body.admin::before {
   .form-grid {
     grid-template-columns: 1fr;
   }
-} /*# sourceMappingURL=main.css.map */
+}

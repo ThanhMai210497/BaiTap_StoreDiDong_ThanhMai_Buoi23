@@ -142,8 +142,8 @@ body {
   font-size: 30px;
   padding: 8px 16px;
   border-radius: 8px;
-  text-decoration: none; /* 🚀 mất gạch chân */
-  display: inline-block; /* để trông giống button */
+  text-decoration: none;
+  display: inline-block;
 }
 
 .container {
@@ -396,7 +396,7 @@ body {
   display: flex;
   gap: 8px;
   justify-content: center;
-  flex-wrap: wrap; /* hoặc scroll ngang */
+  flex-wrap: wrap;
 }
 
 /* Thumbnail nhỏ gọn */
@@ -415,9 +415,6 @@ body {
 #thumbs img:hover {
   transform: scale(1.05);
 }
-
-/* thêm */
-
 footer {
   background: #0e3d5f;
   color: #fff;
@@ -478,6 +475,3 @@ footer .footer-bottom {
   font-size: 13px;
   color: #bbb;
 }
-
-/*# sourceMappingURL=style.css.map */
-/* đã fix */

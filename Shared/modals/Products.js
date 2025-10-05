@@ -5,7 +5,7 @@ export default class Product {
     this.price = price;
     this.category = category;
     this.img = img;
-    this.images = images; // mảng ảnh phụ
+    this.images = images;
     this.desc = desc;
   }
 }

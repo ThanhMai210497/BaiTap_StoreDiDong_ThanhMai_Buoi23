@@ -117,24 +117,6 @@ function renderProducts(list) {
   );
 }
 
-/* 4) Product detail modal */
-// function openDetail(id) {
-//   const p = products.find((x) => x.id == id);
-//   if (!p) return;
-//   $("#modalTitle").textContent = p.name;
-//   $("#modalImg").src = p.img;
-//   $("#modalPrice").textContent = formatVND(p.price);
-//   $("#modalDesc").textContent = p.desc;
-//   $("#modalAddBtn").dataset.id = p.id;
-//   $("#modal").classList.add("open");
-// }
-// $("#modalClose").addEventListener("click", () =>
-//   $("#modal").classList.remove("open")
-// );
-// $("#modalAddBtn").addEventListener("click", (e) => {
-//   addToCart(e.target.dataset.id);
-//   $("#modal").classList.remove("open");
-// });
 function openDetail(id) {
   const p = products.find((x) => x.id == id);
   if (!p) return;
